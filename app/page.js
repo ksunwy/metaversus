@@ -1,5 +1,13 @@
+import Hero from '@/sections/Hero';
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
+import About from '@/sections/About';
+import Explore from '@/sections/Explore';
+import GetStarted from '@/sections/GetStarted';
+import WhatsNew from '@/sections/WhatsNew';
+import World from '@/sections/World';
+import Insights from '@/sections/Insights';
+import Feedback from '@/sections/FeedBack';
+
 
 const Page = () => (
   <div className='bg-primary-black overflow-hidden'>
@@ -15,7 +23,7 @@ const Page = () => (
         <div className='gradient-04 z-0'/>
       <WhatsNew />
     </div>
-    <World />
+    <World/>
     <div className='relative'>
       <Insights />
         <div className='gradient-04 z-0'/>
